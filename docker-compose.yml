@@ -20,7 +20,7 @@ services:
     environment:
       - BOT_TOKEN=${BOT_TOKEN}
       - RECLIP_URL=http://reclip:8899
-      - TELEGRAM_BOT_API_URL=${TELEGRAM_BOT_API_URL:-http://telegram-bot-api:8081}
+      - TELEGRAM_BOT_API_URL=http://telegram-bot-api:8081
       - DOWNLOADS_PATH=/downloads
       - CLEANUP_MAX_AGE_HOURS=${CLEANUP_MAX_AGE_HOURS:-1}
       - CLEANUP_MAX_DISK_MB=${CLEANUP_MAX_DISK_MB:-5000}
